@@ -1,0 +1,35 @@
+# Selenium for browser automation
+selenium==4.15.2
+
+# WebDriverManager to manage browser drivers
+webdriver-manager==4.0.1
+
+# Behave for BDD testing
+behave==1.2.6
+
+# Pytest for test execution and assertions
+pytest==8.0.0
+
+# Pytest-html for HTML reports
+pytest-html==4.1.1
+
+# Allure reporting for Behave
+allure-behave==2.13.5
+
+# Allure reporting for Pytest
+allure-pytest==2.13.5
+
+# Pytest-cov for code coverage
+pytest-cov==4.1.0
+
+# Pytest-mock for mocking
+pytest-mock==3.14.0
+
+# Pytest-xdist for parallel test execution
+pytest-xdist==3.5.0
+
+# Pytest-rerunfailures for retrying failed tests
+pytest-rerunfailures==12.0
+
+# Python-dotenv for environment variables
+python-dotenv==1.0.1 
