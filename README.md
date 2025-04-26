@@ -154,8 +154,20 @@ pip install -r requirements.txt --force-reinstall
 
 Create a `.env` file in the project root with:
 ```
+# Browser Settings
 HEADLESS=false
 NO_SANDBOX=false
 IMPLICIT_WAIT=10
+
+# Report Settings
 SCREENSHOT_DIR=reports/screenshots
+
+# Test Settings
+BASE_URL=https://www.amazon.in
+BROWSER=chrome
+TIMEOUT=30
+
+# Logging Settings
+LOG_LEVEL=INFO
+LOG_DIR=logs
 ```
